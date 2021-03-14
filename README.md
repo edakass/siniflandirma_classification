@@ -203,7 +203,6 @@ Kolye91->necklace (69.83%)
 
 
 
-
 Kaynakça:
 https://www.slideshare.net/YusufKurt/derin-renme-nedir-akademik-biliim-2016-sunumu
 https://www.researchgate.net/publication/335653174_Derin_ogrenme_yontemleri_kullanarak_ekin_ile_yabanci_otlarin_birbirinden_ayirt_edilmesi

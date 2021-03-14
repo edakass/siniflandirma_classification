@@ -1,4 +1,4 @@
-###SINIFLANDIRMA
+*****SINIFLANDIRMA
 
 Sınıflandırma isimli bir klasör oluşturdum.
 ![image](https://user-images.githubusercontent.com/61595808/111068231-fef1e480-84d8-11eb-9470-9377cc6d3789.png)

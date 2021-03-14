@@ -15,13 +15,14 @@ Kolye:
 Roman:
 ![image](https://user-images.githubusercontent.com/61595808/111068296-4b3d2480-84d9-11eb-8f59-4720108eae3e.png)
 Anaconda da Environments kısmında keras ve opencv yüklü gelmediği için ayrıyetten cmd  kısmından yüklemem gerekti.O yüzden bir çok sitedeki durumları denedim.
-***Mesela Opencv kütüphanesi için şu adımları gerçekleştirdim:
+Mesela Opencv kütüphanesi için şu adımları gerçekleştirdim:
 conda install -c conda-forge opencv 
 Python
 import cv2
 cv2.__version__
 (İlk seferde yüklediğim de bu şekilde geldi en son sefer de ise bu adımlardan önce 
-***Pythonın kendi idesi için.
+
+Pythonın kendi idesi için.
 pip install opencv-python
 
 Kaynak:https://medium.com/aattk/opencv-kurulumu-windows-python-ffe807b0e827
@@ -29,7 +30,8 @@ Kaynak:https://medium.com/aattk/opencv-kurulumu-windows-python-ffe807b0e827
 Bu kısmıda yükleyip en baştaki kodları denedim opencv kütüphanesini tanıyor ama 
 diğer kısımları bir hata var yazıp inmiyordu.
 Keras Kütüphanesi için:
-***conda install -c conda-forge keras
+
+conda install -c conda-forge keras
 Enter dedikten sonra,indirme işlemi bittiğinde.Bir soru karşımıza çıkıyor:
 y/n 
 Bu soruya y dedikten sonra indirme işlemim gerçekleşti. 

@@ -1,4 +1,4 @@
-SINIFLANDIRMA
+***SINIFLANDIRMA***
 
 Sınıflandırma isimli bir klasör oluşturdum.
 ![image](https://user-images.githubusercontent.com/61595808/111068231-fef1e480-84d8-11eb-9470-9377cc6d3789.png)
@@ -203,10 +203,16 @@ Kolye91->necklace (69.83%)
 
 
 
-Kaynakça:
+***Kaynakça:***
+<br>
 https://www.slideshare.net/YusufKurt/derin-renme-nedir-akademik-biliim-2016-sunumu
+<br>
 https://www.researchgate.net/publication/335653174_Derin_ogrenme_yontemleri_kullanarak_ekin_ile_yabanci_otlarin_birbirinden_ayirt_edilmesi
+<br>
 https://www.youtube.com/watch?v=tezYIXeo4c4&list=LLcL288xeuXnGSx1QFw4Wuwg&index=2&t=0s
+<br>
 https://devhunteryz.wordpress.com/2018/07/28/transfer-ogrenimi-transfer-learning/
+<br>
 https://medium.com/novaresearchlab/%C3%B6%C4%9Frenme-aktar%C4%B1m%C4%B1-transfer-learning-c0b8126965c4
+<br>
 https://medium.com/@ayyucekizrak/deri%CC%87ne-daha-deri%CC%87ne-evri%C5%9Fimli-sinir-a%C4%9Flar%C4%B1-2813a2c8b2a9

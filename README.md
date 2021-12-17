@@ -15,6 +15,7 @@ Sınıflandırma isimli bir klasör oluşturdum.
 <br>
 ***Test klasörü :***
 <br>
+<br>
 ![image](https://user-images.githubusercontent.com/61595808/111068260-16c96880-84d9-11eb-9269-fb98ef370fbb.png)
 <br>
 <br>
@@ -39,13 +40,17 @@ Roman :
 <br>
 ***Train Klasörü:***
 <br>
+<br>
 Kolye:
+<br>
+<br>
 ![image](https://user-images.githubusercontent.com/61595808/111068290-424c5300-84d9-11eb-9a98-718c182a4792.png)
 <br>
 <br>
 <br>
 <br>
 Roman:
+<br>
 <br>
 ![image](https://user-images.githubusercontent.com/61595808/111068296-4b3d2480-84d9-11eb-8f59-4720108eae3e.png)
 <br>
@@ -224,12 +229,19 @@ Normalde makine öğrenmesinde her bir görev için ayrı bir ‘sıfırdan öğ
 <br>
 *Öğrenme aktarımında kaynak görevi isteğimiz bilgileri öğrenecek şekilde kendimiz geliştirebiliriz veya hazır bir model kullanabiliriz. Uygulamada daha çok tercih edilen yöntem ikincisidir. Bu tarz uygulamaların en güzel örneklerinden biri ImageNet yarışmasıdır. Bu yarışmada 1000 sınıflı fotoğrafları sınıflandırma gibi büyük ve zorlu bir görüntü sınıflandırma görevi vardır. Bu yarışma için modeller geliştiren araştırma kuruluşları genellikle son modellerinin bir lisans kapsamında yeniden kullanılmasına izin vermektedir. Bu modellerin modern donanımlar ile eğitilmesinin günler veya haftalar alabildiği düşünüldüğünde önceki yıl eğitilmiş en iyi modelin bir sonraki yılda öğrenme aktarımı ile kullanılması oldukça mantıklı ve yaygın bir uygulamadır.
 <br>
+<br>
 Neden öğrenme aktarımını kullanalım?
 <br>
+<br>
 *Daha hızlı eğitim süresi: Önceden eğitilmiş modellerdeki ağırlıklar birçok bilgiyi barındırmaktadır. Dolayısıyla bu bilgileri kullanıp ince ayar(fine-tuning) yapılarak yeni model daha hızlı eğitilir. Hatta bazı problemler için öğrenme aktarımı kullanılarak 2–4 epochta bile yüksek başarı elde edilebilmektedir.
+<br>
+<br>
 *Daha az veri: Sıfırdan oluşturulan modellerin en büyük dezavantajı eğitim için büyük ölçekli bir veri kümesinin gerekmesidir. Bu veri kümelerinin oluşturulması için ciddi bir zaman gerekir. Bunun yerine önceden eğitilmiş modellere ince ayar yapılması daha az veri kullanarak yüksek performanslar elde edilmesini sağlar.
+<br>
+<br>
 *Daha iyi performans: Önceden eğitilmiş modellere yeni tam bağlantılı katman(lar) eklenerek yapılan basit bir işlemin başarıyı iyileştirdiği görülmektedir.
 <br>
+
 Yöntemler Öğrenme aktarımı kaynak/hedef öğrenme görev ve verilerine göre üç grupta ifade edilir.
 <br>
 ![image](https://user-images.githubusercontent.com/61595808/111067650-4fb40e00-84d6-11eb-82b3-484a196ac72d.png)
@@ -247,12 +259,15 @@ Bilgisayarla görme alanında öğrenme aktarımına örnek olarak ImageNet yar�
   
  ***VGG***
  <br>
+ <br>
 VGG (Visual Geometry Group) Oxford Üniversitesinde kurulan bir araştırma grubu olan (Visual Geometry Group)  kısaltılmış halidir.Vgg bu isimden gelmektedir.
 Vgg 16 başarısı İmageNet yarışmasında %92.7 lik başarısıyla ispatlamıştı.
 16 ve 19 katman sayılarını temsil ediyor.
 Vgg genel olarak bir Convolution sinir ağının başarımın arttırmak için daha da derinleşmesi tekniğine dayanır.
 <br>
 ***VGG-16***
+<br>
+<br>
 *Basit bir ağ modeli olup öncesindeki modellerden en önemli farkı evrişim katmalarının 2’li ya da 3’li kullanılmasıdır. Tam bağlantı (FC) katmanında 7x7x512=4096 nöronlu bir öznitelik vektörüne dönüştürülür. İki FC katmanı çıkışında 1000 sınıflı softmax başarımı hesaplanır. Yaklaşık 138 milyon parametre hesabı yapılmaktadır. Diğer modellerde olduğu gibi girişten çıkışa doğru matrislerin yükseklik ve genişlik boyutları azalırken derinlik değeri (kanal sayısı) artmaktadır.
 <br>
 ![image](https://user-images.githubusercontent.com/61595808/111067708-7eca7f80-84d6-11eb-8591-dd8b96d838a1.png)

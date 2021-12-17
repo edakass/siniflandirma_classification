@@ -74,9 +74,12 @@ Ve indirme işlemlerimin tamamını gerçekleştirdim.
 
 ![image](https://user-images.githubusercontent.com/61595808/111068432-c3a3e580-84d9-11eb-8123-89e764d58cf2.png)
 <br>
+<br>
 ![image](https://user-images.githubusercontent.com/61595808/111068440-c7d00300-84d9-11eb-9e22-7ead45a10098.png)
 <br>
+<br>
 ![image](https://user-images.githubusercontent.com/61595808/111068453-d5858880-84d9-11eb-857b-884940625111.png)
+<br>
 <br>
 ![image](https://user-images.githubusercontent.com/61595808/111068460-db7b6980-84d9-11eb-9ff9-e7016e227662.png)
 <br>
